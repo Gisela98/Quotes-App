@@ -1,0 +1,55 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 99vh;
+
+}
+
+.box {
+  width: min(620px, 85%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(40, 40, 40);
+  padding: 5px;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  width: 100%; 
+}
+
+.quote {
+  font-size: 20px;
+  margin-right: 10px; 
+  font-style: oblique;
+}
+
+.click{
+  font-size: 45px;
+  
+}
+
+.author {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.button {
+  display: flex;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.388);
+  font-size: 30px;
+  padding: 5px;
+
+}
+
